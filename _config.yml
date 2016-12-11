@@ -1,3 +1,5 @@
+
+
 # ----------------------- #
 #      Main Configs       #
 # ----------------------- #
@@ -6,10 +8,12 @@ url: http://yewong.me
 title: Security Software Desigin
 email: wangye@udel.edu
 author: Ye Wang
-description:  # "Write an awesome description for your new site here. 
-  'This is the showcase of CPEG674 'Security Software Desigin'
-copyright: 'Copyright &copy; 2016 Ye Wang. All Rights Reserved.'
-credits: 'This is the showcase of CPEG674 'Security Software Desigin'
+description: > # "Write an awesome description for your new site here. 
+  You can edit this line in _config.yml. It will appear in your document 
+  head meta (for Google search results) and in your feed.xml site 
+  description.
+copyright: 'Copyright &copy; 2016 Ye Wang.'
+credits: ''
 
 # ----------------------- #
 #    Jekyll & Plugins     #
