@@ -1,8 +1,10 @@
-<section id="services">
+
 <!-- Page Content -->
 {% for post in site.posts reversed %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+    <section id="{{post.section_id}}">
     {% if thecycle == 'odd' %}
+
     <div class="content-section-a">
 
         <div class="container">
@@ -13,10 +15,19 @@
                     <div class="clearfix"></div>
                     <h2 class="section-heading">{{ post.title }}</h2>
                     <div class="lead">{{ post.content }}</div>
+                    <a class="github-button" href="https://github.com{{ post.github }}" data-style="mega" data-count-href="{{ post.github }}/watchers" data-count-api="/repos{{ post.github }}#subscribers_count" data-count-aria-label="# watchers on GitHub">Watch</a>
+                    <a class="github-button" href="https://github.com/YeWang0" data-style="mega" data-count-href="/YeWang0/followers" data-count-api="/users/{{ post.github_name }}#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @{{ post.github_name }} on GitHub">Follow</a>
+                    <!-- Place this tag where you want the button to render. -->
+                    <a class="github-button" href="https://github.com{{ post.github }}/archive/master.zip" data-style="mega" aria-label="Download {{ post.github }} on GitHub">Download</a>
+                    <!-- Place this tag where you want the button to render. -->
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
+                <!-- Place this tag where you want the button to render. -->
+                
+                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                    <!-- <img class="img-responsive" src="img/projects/{{ post.img }}" alt=""> -->
+                    <iframe width="560" height="315" src="{{ post.video }}" frameborder="0" allowfullscreen></iframe>
                 </div>
+
             </div>
 
         </div>
@@ -36,9 +47,16 @@
                     <div class="clearfix"></div>
                     <h2 class="section-heading">{{ post.title }}</h2>
                     <div class="lead">{{ post.content }}</div>
+                    
+                    <a class="github-button" href="https://github.com{{ post.github }}" data-style="mega" data-count-href="{{ post.github }}/watchers" data-count-api="/repos{{ post.github }}#subscribers_count" data-count-aria-label="# watchers on GitHub">Watch</a>
+                    <!-- Place this tag where you want the button to render. -->
+                    <a class="github-button" href="https://github.com/YeWang0" data-style="mega" data-count-href="/YeWang0/followers" data-count-api="/users/{{ post.github_name }}#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @{{ post.github_name }} on GitHub">Follow</a>
+
+                    <a class="github-button" href="https://github.com{{ post.github }}/archive/master.zip" data-style="mega" aria-label="Download {{ post.github }} on GitHub">Download</a>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
+                  <!-- <img class="img-responsive" src="img/projects/{{ post.img }}" alt=""> -->
+                  <iframe width="560" height="315" src="{{ post.video }}" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
 
@@ -48,5 +66,6 @@
     </div>
     <!-- /.content-section-b -->
     {% endif %}
+    </section>
 {% endfor %}
-</section>
+

@@ -1,0 +1,12 @@
+---
+layout: default
+img: ipad.png
+video: https://www.youtube.com/embed/V8EDltZLS5g
+github: /YeWang0/Markovian-tweets
+github_name: YeWang0
+category: Projects
+title: Tweets Generator
+section_id: project1
+description: |
+---
+  Generate tweets to mimic locution by crawling user's posted tweets.<br>Based on Markovian Chain.<br>

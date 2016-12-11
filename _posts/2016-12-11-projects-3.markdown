@@ -1,0 +1,12 @@
+---
+layout: default
+img: phones.png
+video: https://www.youtube.com/embed/i1eZEVqvjis
+github: /YeWang0/Gee-mail
+github_name: YeWang0
+category: Projects
+title: Gee-Mail
+section_id: project3
+description: |
+---
+A secure asynchronous message platform Features.<br>
