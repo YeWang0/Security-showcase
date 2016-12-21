@@ -1,5 +1,5 @@
 ## Website
-Visit my website [here](https://www.yewong.me)
+Visit my website [here](www.yewong.me)
 
 ## Screenshot
 ![screenshot](demo/home.png)
