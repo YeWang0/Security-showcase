@@ -1,12 +1,14 @@
 ---
 layout: default
-img: phones.png
-video: https://www.youtube.com/embed/i1eZEVqvjis
-github: /YeWang0/Gee-mail
+img: [3/1.png,3/2.png,3/3.png,3/4.png,3/5.png,3/6.png,3/7.png,3/8.png,3/9.png]
+img_title: Count Sheep
+video: https://www.youtube.com/embed/IOi0Z2NH95A
+github: /YeWang0/Mine-sweeper
 github_name: YeWang0
 category: Projects
-title: Gee-Mail
+title: Command-Line Minesweeper
 section_id: project3
 description: |
 ---
-A secure asynchronous message platform Features.<br>
+  Command-Line Minesweeper.<br> Written in C++.
+<br>

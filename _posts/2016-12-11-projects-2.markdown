@@ -1,13 +1,13 @@
 ---
 layout: default
-img: dog.png
-video: https://www.youtube.com/embed/IOi0Z2NH95A
-github: /YeWang0/Mine-sweeper
+img: [2/1.png,2/2.png,2/3.png,2/4.png,2/5.png,2/6.png,2/7.png,2/8.png,2/9.png]
+img_title: Demo slider
+video: https://www.youtube.com/embed/V8EDltZLS5g
+github: /YeWang0/Markovian-tweets
 github_name: YeWang0
 category: Projects
-title: Command-Line Minesweeper
+title: Tweets Generator
 section_id: project2
 description: |
 ---
-  Command-Line Minesweeper.<br> Written in C++.
-<br>
+  Generate tweets to mimic locution by crawling user's posted tweets.<br>Based on Markovian Chain.<br>
