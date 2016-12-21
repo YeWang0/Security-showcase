@@ -20,7 +20,7 @@ The description of this service
 View this jekyll theme in action [here](https://swcool.github.io/landing-page-theme)
 
 ## Screenshot
-![screenshot](demo/1.png)
+![screenshot](demo/home.png)
 
 ===
 
